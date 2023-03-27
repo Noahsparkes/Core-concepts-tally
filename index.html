@@ -11,10 +11,10 @@
     <title>Tally Count </title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>Tally Count</h1>
     </header>
-    <div>
+    <aside class="controls">
         <label>
             <span>Display</span>
             <select>
@@ -32,8 +32,15 @@
             </select>
         </label>
         <button>Settings</button>
-    </div>
-    <div></div>
+    </aside>
+
+    <main class="counter">
+        <input class="counter__value" readonly value="1000">
+        <div class="counter__actions">
+        <button class="counter__button counter__button_first">-</button>
+        <button class="counter__button">+</button>
+       </div>
+    </main>
     <footer></footer>
 </body>
 </html>
