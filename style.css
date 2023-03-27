@@ -74,6 +74,10 @@ body{
     transform: translateY(0);
 }
 
+.counter__button:disabled {
+   background: red;
+}
+
 .counter__button:active{
     background:var(--color-medium-gray);
     transform: translateY(2%);
