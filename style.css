@@ -66,7 +66,7 @@ body{
     background:none;
     width: 50%;
     border-width: 0;
-    color: var(--color-light-gray);
+    color: var(--color--white);
     font-size: 3rem;
     height: 10rem;
     border-bottom: 1px solid var(--color-light-gray);
@@ -75,7 +75,7 @@ body{
 }
 
 .counter__button:disabled {
-   background: red;
+   opacity: 0.2;
 }
 
 .counter__button:active{
